@@ -1,0 +1,35 @@
+.container {
+    max-width: 1200px; /* Ancho máximo */
+    margin: 0 auto; /* Centrado */
+    padding: 0 20px; /* Espaciado horizontal */
+}
+
+.h1 {
+    font-size: 2.5rem; /* Tamaño de fuente para el título principal */
+    color: #333; /* Color del texto */
+}
+
+.h2 {
+    font-size: 2rem; /* Tamaño de fuente para subtítulos */
+    color: #2c3e50; /* Color del texto */
+}
+
+.card {
+    background-color: #f9f9f9; /* Color de fondo de la tarjeta */
+    border: 1px solid #e0e0e0; /* Borde */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.5s;
+}
+
+.card h2 {
+    margin-bottom: 1rem; /* Espacio debajo del título de la tarjeta */
+}
+
+.card p {
+    margin-bottom: 0.5rem; /* Espacio debajo de los párrafos en la tarjeta */
+}
+.card:hover {
+    transform: scale(1.05);
+  
+  }
